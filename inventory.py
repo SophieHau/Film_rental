@@ -27,4 +27,3 @@ class Inventory():
 		return movies
 
 
-new_inventory = Inventory(4585, 456, 1, "2019-03-17")

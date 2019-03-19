@@ -20,5 +20,4 @@ class Rental():
 		self.connection.commit()
 
 
-new_rental = Rental(16200, "2019-03-18", 746, 34, "2019-03-18", 2)
 

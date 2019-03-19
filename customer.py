@@ -53,7 +53,5 @@ class Customer():
 		return customers_list
 
 
-new_customer = Customer(1000, 1, "John", "Smith", "john@smith.com", 2, 1, "2019-03-17", "2019-03-17")
-
 
 
