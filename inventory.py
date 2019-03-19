@@ -15,7 +15,7 @@ class Inventory():
 	def search_by_text(self, store_id, text):
 		text = '%{}%'.format(text)
 		query = '''
-				SELECT * from inventory
+				SELECT inventory.inventory_id, inventory.film_id, film.title, film.rating, film.rental_rate from inventory
 				JOIN film
 				ON inventory.film_id = film.film_id
 				WHERE store_id = ? 
